@@ -8,9 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        bgmain:
+          "linear-gradient(to bottom, rgba(0, 0, 139, 0.8) 10%, rgba(0, 0, 0, 0.9) 90%)",
       },
     },
   },

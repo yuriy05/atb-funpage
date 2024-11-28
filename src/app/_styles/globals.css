@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-with-gradient-mask {
+  mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 139, 0.8) 30%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  mask-size: cover;
+  mask-repeat: no-repeat;
+}
